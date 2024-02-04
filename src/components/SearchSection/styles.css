@@ -1,0 +1,33 @@
+.ghapi-search-card{
+    height: 270px;
+    background-color: var(--ghapi-color-bg-tertiary);
+    display: flex;
+    flex-direction: column;
+    padding: 54px 31px;
+    border-radius: 16px;
+    margin: 54px 0;
+}
+.ghapi-search-card h2{
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--ghapi-color-font-secondary);
+    margin-bottom: 12px;
+}
+.ghapi-search-card input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border:1px solid var(--ghapi-color-border);
+    
+
+}
+.ghapi-search-card input:focus{
+    outline: none;
+}
+.ghapi-search-card input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ghapi-color-font-placeholder);
+    padding-left: 17px;
+}

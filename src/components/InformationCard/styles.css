@@ -1,0 +1,31 @@
+.ghapi-form-container{
+    background-color: var(--ghapi-color-bg-quaternary);
+    border-radius: 8px;
+    padding: 44px 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ghapi-information-card{
+    padding: 0 16px 17px 16px;
+    margin-left: 29px;
+    border-radius: 6px;
+    background-color: var(--ghapi-color-bg-primary);
+    width: 902px;
+}
+.ghapi-information-card h3{
+    font-size: 20px;
+    color: var(--ghapi-color-font-quartenary);
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
+.ghapi-itens-information{
+    border: 1px solid var(--ghapi-color-border);
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+    --ghapi-color-bg-primary: #FFFFFF;
+    --ghapi-color-bg-secondary: #1890FF;
+    --ghapi-color-bg-tertiary: #E6F7FF;
+    --ghapi-color-bg-quaternary: #F5F5F5;
+   
+    --ghapi-color-btn-primary: #1890FF;
+  
+    --ghapi-color-font-primary:#FFFFFF;
+    --ghapi-color-font-secondary: #000000;
+    --ghapi-color-font-tertiary: #7E7E7E;
+    --ghapi-color-font-quartenary: #1890FF;
+
+    --ghapi-color-border:#D9D9D9;
+
+    --ghapi-color-font-card:#737373; 
+
+    --ghapi-color-font-link:#0029FF;
+    
+  
+    --ghapi-color-font-placeholder: #BFBFBF;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+    color: unset;
+  }
+  
+  html,
+  body {
+    background-color: var(--ghapi-color-bg-primary);
+  }
+  
+  
+  /*-----------------------------------------------------------------*/
+  /* generic styles */
+  
+  .ghapi-container {
+    width: 100%;
+    padding: 0 41px;
+    margin: 0 auto;
+  }
+  
+  .ghapi-mb20 {
+    margin-bottom: 20px;
+  }
+  
+  .ghapi-mt20 {
+    margin-top: 20px;
+  }
+  
+ /*-----------------------------------------------------------------*/
+  /* generic button */
+
+  .ghapi-button{
+    background-color: var(--ghapi-color-bg-secondary);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ghapi-color-font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+  }

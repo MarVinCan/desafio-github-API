@@ -1,0 +1,19 @@
+    .ghapi-text-homebody{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+
+    }
+    .ghapi-text-homebody h1{
+        color: var(--ghapi-color-font-secondary);
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .ghapi-text-homebody h4{
+        color: var(--ghapi-color-font-tertiary);
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .ghapi-button-container{
+        padding-top: 30px;
+    }

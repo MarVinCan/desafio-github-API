@@ -1,0 +1,12 @@
+header{
+    background-color: var(--ghapi-color-bg-secondary);
+    height: 62px;
+    display: flex;
+    align-items: center;
+    
+}
+header h1{
+    color: var(--ghapi-color-font-primary);
+    font-size: 24px;
+    font-weight: 500;
+}
