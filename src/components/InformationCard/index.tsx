@@ -1,20 +1,25 @@
+import { UserDTO } from "../../models/users";
 import "./styles.css";
 
-export default function InformationCard() {
+type Props = {
+    user: UserDTO;
+  };
+
+export default function InformationCard({user}:Props) {
   return (
-    <form>
+    <div>
       <div className="ghapi-form-container">
-        <div>Imagem</div>
+        <div><img src={user.avatar_url} alt={user.name} /></div>
         <div className="ghapi-information-card">
           <h3>Informações</h3>
           <div>
-            <div className="ghapi-itens-information">Perfil: https://api.github.com/users/acenelio</div>
-            <div className="ghapi-itens-information">Seguidores: 4379</div>
-            <div className="ghapi-itens-information">Localidade: Uberlândia</div>
-            <div className="ghapi-itens-information">Nome: Nelio Alves</div>
+            <div className="ghapi-itens-information">Perfil:<a>{user.url}</a></div>
+            <div className="ghapi-itens-information">Seguidores: <p>{user.followers}</p></div>
+            <div className="ghapi-itens-information">Localidade: <p>{user.location}</p></div>
+            <div className="ghapi-itens-information">Nome: <p>{user.name}</p></div>
           </div>
         </div>
       </div>
-    </form>
+    </div>
   );
 }

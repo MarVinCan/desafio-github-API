@@ -19,6 +19,7 @@
     margin-bottom: 24px;
     border-radius: 4px;
     border:1px solid var(--ghapi-color-border);
+    padding-left: 17px;
     
 
 }
@@ -29,5 +30,7 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--ghapi-color-font-placeholder);
-    padding-left: 17px;
+}
+.desativar{
+    display: none;
 }

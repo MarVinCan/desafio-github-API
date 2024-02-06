@@ -6,6 +6,11 @@
     display: flex;
     align-items: center;
 }
+
+.ghapi-form-container img{
+    height: 247px;
+    width: 247px;
+}
 .ghapi-information-card{
     padding: 0 16px 17px 16px;
     margin-left: 29px;
@@ -27,5 +32,16 @@
     align-items: center;
     padding: 8px 10px;
     margin-bottom: 5px;
-    
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ghapi-color-font-tertiary);
+}
+.ghapi-itens-information p{
+    font-weight: 400;
+    padding-left: 5px;
+}
+.ghapi-itens-information a{
+    color: var(--ghapi-color-font-link);
+    font-weight: 400;
+    padding-left: 5px
 }
